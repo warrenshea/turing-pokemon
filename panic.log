@@ -1,0 +1,194 @@
+*** NON-FATAL INTERNAL ERROR in Environment ***
+Date: Jan 6 2011 10:06 PM
+
+File Name: E:\Backup\School\Archive\Pokemon Game 2011\turing.exe
+Version: 4.1.1
+File Size: 2441303
+File Date: Oct 25 2007 9:13 AM
+Operating System: Bad OS Value (0)
+JVM: "assert" Statements: enabled
+
+
+Previous Operations:
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "E:\Backup\School\Archive\Pokemon Game 2011\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = Unable to load "E:\Backup\School\Archive\Pokemon Game 2011\Support\Bin\lang.dll" (6057)
+   Windows error = The specified module could not be found. (126)
+   File = P:\ready\src\edprog.c
+   Line = 95
+
+List of Modules: 
+    E:\Backup\School\Archive\Pokemon Game 2011\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\system32\kernel32.dll
+    C:\Windows\system32\KERNELBASE.dll
+    C:\Windows\system32\VERSION.dll
+    C:\Windows\system32\msvcrt.dll
+    C:\Windows\system32\WINMM.dll
+    C:\Windows\system32\USER32.dll
+    C:\Windows\system32\GDI32.dll
+    C:\Windows\system32\LPK.dll
+    C:\Windows\system32\USP10.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16661_none_ebfb56996c72aefc\COMCTL32.dll
+    C:\Windows\system32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\system32\RPCRT4.dll
+    C:\Windows\system32\comdlg32.dll
+    C:\Windows\system32\SHLWAPI.dll
+    C:\Windows\system32\SHELL32.dll
+    C:\Windows\system32\WININET.dll
+    C:\Windows\system32\Normaliz.dll
+    C:\Windows\system32\iertutil.dll
+    C:\Windows\system32\urlmon.dll
+    C:\Windows\system32\ole32.dll
+    C:\Windows\system32\OLEAUT32.dll
+    C:\Windows\system32\XmlLite.dll
+    C:\Windows\system32\IMM32.DLL
+    C:\Windows\system32\MSCTF.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\system32\CRYPTBASE.dll
+    C:\Windows\system32\dbghelp.dll
+
+  0 .V PC=001b:772b64f4 Ret=7650f003 Frame=0012b0d4 Stack=0012b068
+    Parameters (0x000000dc 0x00003a98 0x00000000 0x0012b110)
+    Unknown module, KiFastSystemCallRet() + 0000 byte(s)
+  1 .V PC=001b:7650f003 Ret=7650efb2 Frame=0012b0ec Stack=0012b0dc
+    Parameters (0x000000dc 0x00003a98 0x00000000 0x0012d99c)
+    Unknown module, WaitForSingleObjectEx() + 0067 byte(s)
+  2 .V PC=001b:7650efb2 Ret=0041d5f2 Frame=0012b100 Stack=0012b0f4
+    Parameters (0x000000dc 0x00003a98 0x0012e2a8 0x0012d9d8)
+    Unknown module, WaitForSingleObject() + 0018 byte(s)
+  3 .V PC=001b:0041d5f2 Ret=0041cbe4 Frame=0012d99c Stack=0012b108
+    Parameters (0x00000000 0x000017a9 0x005257e0 0x0000005f)
+    Unknown module
+  4 .V PC=001b:0041cbe4 Ret=004268f3 Frame=0012d9c0 Stack=0012d9a4
+    Parameters (0x000017a9 0x005257e0 0x0000005f 0x0000007e)
+    Unknown module
+  5 .V PC=001b:004268f3 Ret=0041520e Frame=0012e2a8 Stack=0012d9c8
+    Parameters (0x00000000 0x00000000 0xcccccccc 0xcccccccc)
+    Unknown module
+  6 .V PC=001b:0041520e Ret=00401126 Frame=0012fef8 Stack=0012e2b0
+    Parameters (0x00400000 0x00000000 0x00202510 0x00000001)
+    Unknown module
+  7 .V PC=001b:00401126 Ret=76511194 Frame=0012ff88 Stack=0012ff00
+    Parameters (0x7ffdf000 0x0012ffd4 0x772cb495 0x7ffdf000)
+    Unknown module
+  8 .V PC=001b:76511194 Ret=772cb495 Frame=0012ff94 Stack=0012ff90
+    Parameters (0x7ffdf000 0x5951f4b3 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0018 byte(s)
+  9 .V PC=001b:772cb495 Ret=772cb468 Frame=0012ffd4 Stack=0012ff9c
+    Parameters (0x00401000 0x7ffdf000 0x00000000 0x00000000)
+    Unknown module, RtlInitializeExceptionChain() + 0099 byte(s)
+ 10 .V PC=001b:772cb468 Ret=00000000 Frame=0012ffec Stack=0012ffdc
+    Parameters (0x00401000 0x7ffdf000 0x00000000 0x78746341)
+    Unknown module, RtlInitializeExceptionChain() + 0054 byte(s)
+
+
+------------------------------------------------------
+*** NON-FATAL INTERNAL ERROR in Environment ***
+Date: Jan 6 2011 10:06 PM
+
+File Name: E:\Backup\School\Archive\Pokemon Game 2011\turing.exe
+Version: 4.1.1
+File Size: 2441303
+File Date: Oct 25 2007 9:13 AM
+Operating System: Bad OS Value (0)
+JVM: "assert" Statements: enabled
+
+
+Previous Operations:
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "E:\Backup\School\Archive\Pokemon Game 2011\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = Unable to load "E:\Backup\School\Archive\Pokemon Game 2011\Support\Bin\lang.dll" (6057)
+   Windows error = The specified module could not be found. (126)
+   File = P:\ready\src\edprog.c
+   Line = 95
+
+List of Modules: 
+    E:\Backup\School\Archive\Pokemon Game 2011\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\system32\kernel32.dll
+    C:\Windows\system32\KERNELBASE.dll
+    C:\Windows\system32\VERSION.dll
+    C:\Windows\system32\msvcrt.dll
+    C:\Windows\system32\WINMM.dll
+    C:\Windows\system32\USER32.dll
+    C:\Windows\system32\GDI32.dll
+    C:\Windows\system32\LPK.dll
+    C:\Windows\system32\USP10.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16661_none_ebfb56996c72aefc\COMCTL32.dll
+    C:\Windows\system32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\system32\RPCRT4.dll
+    C:\Windows\system32\comdlg32.dll
+    C:\Windows\system32\SHLWAPI.dll
+    C:\Windows\system32\SHELL32.dll
+    C:\Windows\system32\WININET.dll
+    C:\Windows\system32\Normaliz.dll
+    C:\Windows\system32\iertutil.dll
+    C:\Windows\system32\urlmon.dll
+    C:\Windows\system32\ole32.dll
+    C:\Windows\system32\OLEAUT32.dll
+    C:\Windows\system32\XmlLite.dll
+    C:\Windows\system32\IMM32.DLL
+    C:\Windows\system32\MSCTF.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\system32\CRYPTBASE.dll
+    C:\Windows\system32\dbghelp.dll
+
+  0 .V PC=001b:772b64f4 Ret=7650f003 Frame=0012b0d4 Stack=0012b068
+    Parameters (0x000000dc 0x00003a98 0x00000000 0x0012b110)
+    Unknown module, KiFastSystemCallRet() + 0000 byte(s)
+  1 .V PC=001b:7650f003 Ret=7650efb2 Frame=0012b0ec Stack=0012b0dc
+    Parameters (0x000000dc 0x00003a98 0x00000000 0x0012d99c)
+    Unknown module, WaitForSingleObjectEx() + 0067 byte(s)
+  2 .V PC=001b:7650efb2 Ret=0041d5f2 Frame=0012b100 Stack=0012b0f4
+    Parameters (0x000000dc 0x00003a98 0x0012e2a8 0x0012d9d8)
+    Unknown module, WaitForSingleObject() + 0018 byte(s)
+  3 .V PC=001b:0041d5f2 Ret=0041cbe4 Frame=0012d99c Stack=0012b108
+    Parameters (0x00000000 0x000017a9 0x005257e0 0x0000005f)
+    Unknown module
+  4 .V PC=001b:0041cbe4 Ret=004268f3 Frame=0012d9c0 Stack=0012d9a4
+    Parameters (0x000017a9 0x005257e0 0x0000005f 0x0000007e)
+    Unknown module
+  5 .V PC=001b:004268f3 Ret=0041520e Frame=0012e2a8 Stack=0012d9c8
+    Parameters (0x00000000 0x00000000 0xcccccccc 0xcccccccc)
+    Unknown module
+  6 .V PC=001b:0041520e Ret=00401126 Frame=0012fef8 Stack=0012e2b0
+    Parameters (0x00400000 0x00000000 0x00222510 0x00000001)
+    Unknown module
+  7 .V PC=001b:00401126 Ret=76511194 Frame=0012ff88 Stack=0012ff00
+    Parameters (0x7ffd4000 0x0012ffd4 0x772cb495 0x7ffd4000)
+    Unknown module
+  8 .V PC=001b:76511194 Ret=772cb495 Frame=0012ff94 Stack=0012ff90
+    Parameters (0x7ffd4000 0x595126ec 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0018 byte(s)
+  9 .V PC=001b:772cb495 Ret=772cb468 Frame=0012ffd4 Stack=0012ff9c
+    Parameters (0x00401000 0x7ffd4000 0x00000000 0x00000000)
+    Unknown module, RtlInitializeExceptionChain() + 0099 byte(s)
+ 10 .V PC=001b:772cb468 Ret=00000000 Frame=0012ffec Stack=0012ffdc
+    Parameters (0x00401000 0x7ffd4000 0x00000000 0x78746341)
+    Unknown module, RtlInitializeExceptionChain() + 0054 byte(s)
+
+
+------------------------------------------------------
